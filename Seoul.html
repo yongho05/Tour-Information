@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seoul Cultural Events</title>
+    <link rel="stylesheet" href="seoul.css"> <!-- CSS 파일 링크 -->
+</head>
+<body>
+    <h1>Seoul Cultural Events</h1>
+    <input type="text" id="searchInput" placeholder="Enter event information" />
+    <input type="date" id="startDate" placeholder="Start date" />
+    <input type="date" id="endDate" placeholder="End date" />
+    <button id="searchEvents">Search</button>
+    
+
+    <div id="eventList"></div> <!-- 이벤트 리스트가 표시될 곳 -->
+
+    <!-- 페이지네이션 버튼 추가 -->
+    <div id="eventList"></div>
+<button id="prevPage" onclick="changePage(-1)">이전</button>
+<button id="nextPage" onclick="changePage(1)">다음</button>
+
+
+    <script src="seoul.js"></script> <!-- JavaScript 파일 링크 -->
+</body>
+</html>
